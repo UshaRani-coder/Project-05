@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+.container{
+    background-color: black;
+    height:70px;
+}
+body{
+   
+    width:100%;
+    height:100vh;
+    background-image: url('Assets/project5img.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.logo{
+    width:120px;
+    margin-top: 10px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.grow-list .list{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    color:#fff;
+    margin-top: 10px;
+    margin-right: 350px;
+
+}
+.line{
+ width:2px;
+ height:40px;
+ background: silver;
+ margin-top:10px;
+
+}
+.list :first-child::after{
+    content: "\02C5";
+    font-weight: 900;
+    margin-left: 7px;
+    font-size: 15px;
+
+    
+}
+.list .list-item{
+    padding:0 20px;
+   
+    
+}
+.button-small{
+    border-radius: 5px;
+    padding:10px 20px;
+    border-color: transparent;
+    background-color: rgb(224,11,203);
+    color:#fff;
+    margin-top: 10px;
+
+}
+h1 {
+    font-size:60px;
+    color:#fff;
+
+   padding-right:300px;
+   
+}
+p{
+    color:#fff;
+    font-size: 20px;
+    margin-left:70px;
+   
+}
+.button-large{
+    border-radius: 10px;
+    padding:15px 30px;
+    border-color: transparent;
+    color:#fff;
+    background-color:rgb(224,11,203);
+  margin-top: 20px;
+  margin-left: 170px;
+
+}
+.hero{
+    margin-top: 70px;
+    margin-left:350px ;
+}
